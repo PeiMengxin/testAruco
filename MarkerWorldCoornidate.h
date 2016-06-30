@@ -5,8 +5,8 @@
 #include <vector>
 
 #define MARKER_ROW_NUM 6
-#define MARKERS_ROW_DISTANCE 43.0	//cm
-#define MARKERS_COL_DISTANCE 60.0	//cm
+#define MARKERS_ROW_DISTANCE 60.0	//cm
+#define MARKERS_COL_DISTANCE 50.0	//cm
 
 class MarkerWorld
 {

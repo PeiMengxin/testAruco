@@ -143,7 +143,7 @@ int main(int argc, char **argv)
 		// read the input image
 		cv::Mat InImage;
 		// try opening first as video
-		VideoCapture cap(0);
+		VideoCapture cap("video.avi");
 
 		if (cap.isOpened()) {
 			cap.grab();
